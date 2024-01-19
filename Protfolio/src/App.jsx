@@ -1,7 +1,15 @@
-export default function App() {
+import React from 'react';
+import Navbar from './components/Navbar';
+function App() {
+  
+
   return (
-    <h1 className="text-1xl font-bold underline text-green-500">
-      Hello world!
-    </h1>
+    <>
+      <div>
+        <Navbar></Navbar>
+      </div>
+    </>
   )
 }
+
+export default App

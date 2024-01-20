@@ -4,12 +4,16 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Design from './components/Design';
 function App() {
   
 
   return (
     <>
       <div>
+        <div>
+          <Design></Design>
+        </div>
         <Navbar></Navbar>
         <Home></Home>
         <About></About>

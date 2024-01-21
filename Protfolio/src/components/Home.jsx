@@ -6,14 +6,14 @@ import myImage from '../assets/PersonalImage.jpg'
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-      {/* Container */}
+
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        {/* <p className='text-pink-600'>Hi, my name is</p> */}
+     
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Yousef Alsakkaf
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#a4abc1]">
-          {/* I'm a Full Stack Developer. */}
+  
           Computer Science student
         </h2>
         <p className="text-[#c6cbda] py-4 max-w-[700px]">

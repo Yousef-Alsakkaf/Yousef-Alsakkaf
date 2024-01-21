@@ -1,7 +1,6 @@
 import React from 'react'
 import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
- // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
 import { loadFull } from "tsparticles"; 
 function Design() {
 

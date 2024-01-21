@@ -16,7 +16,6 @@ const backgroundColor = "bg-gradient-to-r from-indigo-500"
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-300' >
-      {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-pink-600 mt-10'>Skills</p>

@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaFacebook,
   FaLinkedinIn,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -21,7 +22,7 @@ const Navbar = () => {
   const handleResumeClick = () => {
     const link = document.createElement("a");
     link.href = fileToUpload;
-    link.download = "resume.pdf"; // Set the desired file name
+    link.download = "resume.pdf";
     link.click();
   };
 
@@ -36,7 +37,6 @@ const Navbar = () => {
         />
       </div>
 
-      {/* menu */}
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
@@ -65,12 +65,10 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* Mobile menu */}
       <ul
         className={
           !nav
@@ -138,12 +136,24 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]" onClick={handleResumeClick}>
+          <li
+            className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]"
+            onClick={handleResumeClick}
+          >
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
               Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#56e979]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="whatsapp://send?phone=+971563414766"
+              target="_blank"
+            >
+              Whatsapp <FaWhatsapp size={30} />
             </a>
           </li>
         </ul>

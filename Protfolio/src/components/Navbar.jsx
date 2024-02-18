@@ -29,7 +29,6 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-gray-300">
       <div>
-        {/* #0a192f */}
         <img
           src={Logo}
           alt="Logo Image"
@@ -147,7 +146,7 @@ const Navbar = () => {
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#56e979]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#23873a]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="whatsapp://send?phone=+971563414766"
